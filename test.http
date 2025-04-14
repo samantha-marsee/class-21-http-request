@@ -17,3 +17,14 @@ GET /api/produce/{{produce[0]._id}}/buy
 ###
 # @ref product
 DELETE /api/produce/{{produce[produce.length - 1]._id}}
+###
+GET /api/space
+
+HTTP/1.1 200  - OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 2528
+etag: W/"9e0-GgyQJPdmdb9utgJPp/1jrlnw+2M"
+date: Mon, 14 Apr 2025 14:22:01 GMT
+connection: close

@@ -28,6 +28,11 @@ const client = new MongoClient('mongodb://localhost:27017');
 const conn = await client.connect();
 const db = conn.db('app');
 
+app.get('/api/space', async (req, res) => {
+  const spaceData = await db.collection('space').find().toArray();
+  res.status(200).json(spaceData);
+});
+
 app.get('/api/produce', async (req, res) => {
   // query parameters
   const country = req.query.country;
