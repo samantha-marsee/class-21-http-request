@@ -6,7 +6,7 @@ import './index.css'
 import Home from './Home.jsx'
 
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://shiny-funicular-g45r67xx7j9qfwr56-5173.app.github.dev/';
 
 // DO NOT CHANGE THIS FILE
 
